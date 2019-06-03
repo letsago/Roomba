@@ -5,9 +5,10 @@ Hello and welcome to this README! This documents my implementation of Roomba in 
 ## How to run
 
 ```bash
-git clone https://flashhire@dev.azure.com/flashhire/PatrickYu/_git/PatrickYu
-cd PatrickYu/Roomba
-source ~/References/tools/setup.sh
+git clone https://github.com/letsago/Roomba.git
+cd Roomba/Roomba/
+git clone https://flashhire.visualstudio.com/_git/Reference
+. ~/Roomba/Roomba/Reference/tools/setup.sh
 # To run all automated tests
 make run
 # To execute step-by-step visualizations
